@@ -83,3 +83,49 @@ function sayHelloName(name) {
 sayHelloName("An");
 sayHelloName("Bình");
 sayHelloName("Hải");
+
+function sum(a, b) {
+  // return a + b;
+  console.log("aaa");
+  if (a) {
+    console.log(a);
+    return;
+  }
+  console.log(b);
+}
+
+sum(3, 4);
+// ====================
+// Bài 5
+// ====================
+
+function sum5(x, y) {
+    console.log(x+y);
+}
+sum5(10,20);
+// ====================
+// Bài 6
+// ====================
+
+function tinhTien(price, quantity) {
+    const total=price*quantity;
+    console.log(total);
+}
+tinhTien(5000, 3);
+
+// ====================
+// Bài 7
+// ====================
+
+const math = 8;
+const english = 7;
+const javascript = 9;
+
+function calculateAverage(math, english, javascript) {
+    const average = (math + english + javascript) / 3;
+    return average;
+}
+
+const average = calculateAverage(8, 7, 9);
+
+console.log(average);
