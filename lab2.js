@@ -19,6 +19,25 @@
 //   console.log(students[i]);
 // }
 
+
+// //Object
+// const student = {
+//   name: "Nguyễn Văn Hải",
+//   id: 444,
+//   age: 23,
+//   email: "nox@gmail.com",
+//   major: "CNTT",
+// };
+// console.log(student.name);
+// student.id="777";
+// console.log(student.id);
+// student.address="90";
+// console.log(student.address);
+
+
+
+
+
 // Bài 1 
 const names = ["An", "Bình", "Nam", "Hòa", "Lan"];
 console.log(names);
@@ -40,3 +59,21 @@ for (let i = 0; i < names.length; i++) {
 
 
 //Bài3
+const student = {
+  id: 1,
+  name: "Nguyễn Văn An",
+  age: 20,
+  email: "an@gmail.com",
+  major: "CNTT",
+};
+console.log(student);
+console.log(student.name);
+console.log(student.age);
+console.log(student.email);
+
+student.age=21;
+console.log(student);
+
+student.phone="0987654321";
+console.log(student);
+
