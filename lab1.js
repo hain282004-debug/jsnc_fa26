@@ -1,3 +1,4 @@
+{
 let name = "SeaD"; // string
 
 let age = 36; // number
@@ -128,4 +129,4 @@ function calculateAverage(math, english, javascript) {
 
 const average = calculateAverage(8, 7, 9);
 
-console.log(average);
+console.log(average);}

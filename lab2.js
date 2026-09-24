@@ -1,3 +1,4 @@
+{
 // const student1 = "Nguyễn Văn An";
 // const student2 = "Trần Văn Bình";
 // const student3 = "Lê Văn Nam";
@@ -159,3 +160,4 @@ for (let i = 0; i < students.length; i++) {
 }
 
 html.innerHTML += content2;
+}
